@@ -1,3 +1,4 @@
+/* problem 1 */
 var musicians = [
   "John Lennon",
   "Paul McCartney",
@@ -10,7 +11,6 @@ var instruments = [
   "Lead Guitar",
   "Drums"
   ];
-
 function theBeatlesPlay(musicians, instruments) {
   var result = [];
   for(var i = 0; i < musicians.length; i++) {
@@ -18,5 +18,6 @@ function theBeatlesPlay(musicians, instruments) {
   }
   return result;
 }
-
 theBeatlesPlay(musicians, instruments);
+
+/* problem 2 */
