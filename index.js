@@ -1,12 +1,14 @@
 var musicians = [
   "John Lennon",
-  "Stevie Wonder",
-  "Louie Armstrong"
+  "Paul McCartney",
+  "George Harrison",
+  "Ringo Starr"
   ];
 var instruments = [
-  "guitar",
-  "piano",
-  "saxaphone"
+  "Guitar",
+  "Bass Guitar",
+  "Lead Guitar",
+  "Drums"
   ];
 
 function theBeatlesPlay(musicians, instruments) {
@@ -16,3 +18,5 @@ function theBeatlesPlay(musicians, instruments) {
      result.push(str);
   }
 }
+
+return theBeatlesPlay(musicians, instruments);
