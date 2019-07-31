@@ -31,7 +31,6 @@ const facts = [
 
 function johnLennonFacts(facts) {
   var newArr = [];
-  i++;
   while(facts[i]) {
     newArr.push(`${facts[i]}!!!`);
   }
