@@ -1,4 +1,3 @@
-/* problem 1 */
 var musicians = [
   "John Lennon",
   "Paul McCartney",
@@ -20,7 +19,7 @@ function theBeatlesPlay(musicians, instruments) {
 }
 theBeatlesPlay(musicians, instruments);
 
-/* problem 2 */
+
 var i = 0;
 var facts = [
   "He was the last Beatle to learn to drive",
