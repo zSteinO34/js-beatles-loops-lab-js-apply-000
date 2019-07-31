@@ -31,7 +31,7 @@ const facts = [
 
 function johnLennonFacts(facts) {
   var newArr = [];
-  while(facts[i]) {
+  while(i > facts.length) {
     newArr.push(`${facts[i]}!!!`);
   }
   return newArr;
