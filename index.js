@@ -21,6 +21,7 @@ function theBeatlesPlay(musicians, instruments) {
 theBeatlesPlay(musicians, instruments);
 
 /* problem 2 */
+let i = 0;
 const facts = [
   "He was the last Beatle to learn to drive",
   "He was never a vegetarian",
