@@ -21,11 +21,6 @@ function theBeatlesPlay(musicians, instruments) {
 theBeatlesPlay(musicians, instruments);
 
 /* problem 2 */
-
-Use a while loop to loop over the facts array and add `"!!!"` to the end of
-every fact. The function should return an array of strings with exclamation
-points.
-
 const facts = [
   "He was the last Beatle to learn to drive",
   "He was never a vegetarian",
