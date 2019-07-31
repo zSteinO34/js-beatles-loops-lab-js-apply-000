@@ -30,7 +30,7 @@ var i = 0;
 
 function johnLennonFacts(arr) {
   while(i < arr.length) {
-    arr[i] = `${arr[i]}!!!`;
+    arr[i] = arr[i] + "!!!";
     i++;
   }
   return arr;
